@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueRouter from 'vue-router';
-// test
-Vue.use(VueRouter);
+import './plugins/element.js'
 
 
 Vue.config.productionTip = false
